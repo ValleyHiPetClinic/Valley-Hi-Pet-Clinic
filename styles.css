@@ -1,0 +1,597 @@
+/* CSS Document */
+body{
+  margin: 0;
+  background-color: transparent;
+  font-family: 'Work-Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container{
+  width:100%;
+  margin:0 auto;
+}
+
+header{
+  background: #074E97;
+  margin-bottom: -90px;
+  height:200px;
+}
+
+.box0{
+  background:white;
+  width: 100%;
+  Height: 160px;
+  opacity: 1;
+  border-radius: 0px;
+  position: absolute;
+  background-size: contain;
+  margin-top: 0px;
+}
+
+h1{
+  color: #074E97;
+  font-family: 'Righteous' ,cursive;
+  font: Arial;
+  font-weight: 800;
+  font-size: 50px;
+  font-variant: small-caps;
+  font-style: oblique;
+  float: none;
+  padding-left: 580px;
+
+}
+
+h2{
+  font-family: ;
+  font-style: oblique;
+  font-size: 30px;
+  position: absolute;
+  margin-top: -175px;
+  padding-right: 150px;
+  padding-top: 150px;
+  padding-left: 599px;
+  color: black
+
+}
+
+img{
+  height:148px;
+  width: 148px;
+  padding-right: 10px;
+  margin-left:  1240px;
+  padding-top: 2px;
+  margin-top: -125px;
+  ;
+}
+p{
+  color: blue;
+  font-family: fantasy;
+}
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo{
+  float:left;
+}
+
+nav{
+  float: right;
+  padding: 0 10px;
+}
+
+nav ul{
+  margin: auto;
+  padding:0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 3px;
+  padding-bottom: 20px;
+  padding-right: 150px;
+  margin-top: 50px;
+
+  position: relative;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover{
+  color: #0BCF9B;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+  padding-bottom: 3px;
+  width: 0%;
+transition: 350ms;
+}
+
+
+nav a:hover::before{
+  width: 100%;
+}
+
+html, body{
+  width: 100%;
+  Height:100%;
+  padding: 0;
+  margin: 0px;
+}
+
+.card1{
+  background-position: center;
+  background-image:url("https://www.kimballstock.com/images/dog-stock-photos.jpg");
+  background-size: cover;
+  height: 108.3vh;
+  width: 60%;
+  margin-top: 90px;
+  margin-left:608px;
+}
+
+.box{
+width: 40%;
+height: 724px;
+background: white;
+top: 200px;
+opacity: 0.8;
+border-radius: 0px;
+position: absolute;
+background-size: contain;
+}
+
+.box6{
+width: 100%;
+height: 55px;
+background: #57AAFF;
+padding-top: 100px;
+margin-top: 0px;
+opacity: 1;
+border-radius: 0px;
+position: relative;
+background-size: contain;
+}
+
+p1{
+  color: black;
+  font-family: 'Righteous', cursive;
+  padding-left: 0px;
+  margin-top: 500px;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 10px;
+  top: -32px;
+  position: relative;
+  font-weight: 800;
+  overflow: hidden;
+  animation-name: Slide;
+  animation-duration: 3s;
+  }
+
+
+p6{
+  color: #000000;
+  top: 220px;
+  font-size: 32px;
+  font-family: 'Poppins' ,cursive ;
+  margin-top: -20px;
+  position: absolute;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+p7{
+  color: black;
+  top: 460px;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  padding-left: 160px;
+  font-variant: small-caps;
+  font-style: oblique;
+  font: Arial;
+  font-family: 'Righteous' ,cursive;
+  text-decoration: underline;
+}
+
+ul2{
+  font-size: 32px;
+  margin-top: 20px;
+  font-variant: inherit;
+  font-family: serif;
+  top: 500px;
+  padding-left: 10px;
+  position: absolute;
+  font-family: 'Poppins' ,cursive;
+}
+.card2{
+  background-position: center;
+  background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?cs=srgb&dl=adorable-animal-blur-406014.jpg&fm=jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  margin-left: 608px;
+}
+
+.box2{
+  width: 40%;
+  height: 621px;
+  background: white;
+  padding-top: 100px;
+  top: 984px;
+  opacity: .8;
+  border-radius: 0px;
+  background-size: contain;
+  position: absolute;
+}
+
+.box7{
+  width: 100%;
+  height: 55px;
+  background: #57AAFF;
+  padding-top: 100px;
+  margin-top: 0px;
+  opacity: 1;
+  top: -102px;
+  border-radius: 0px;
+  position: relative;
+  background-size: contain;
+}
+
+p2{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font: Arial;
+  font-variant: small-caps;
+  font-style: oblique;
+  padding-left: 30px;
+  margin-top: 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 40px;
+  position: absolute;
+  top: -40px;
+  text-align: center;
+  padding-left: 67px;
+  font-weight: 800;
+}
+
+p8{
+color:black;
+font-family: 'Poppins' ,cursive;
+font-size: 24px;
+margin-left: 20px;
+margin-right: 20px;
+text-align: left;
+position: absolute;
+top: 180px;
+}
+
+p9{
+  color: black;
+  font-family: 'Poppins' ,cursive;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  position: absolute;
+  top: 435px;
+}
+
+.card3{
+  background-position: center;
+  background-image: url(https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?cs=srgb&dl=animal-cat-cute-126407.jpg&fm=jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  margin-left: 608px;
+}
+
+.box3{
+  width: 40%;
+  height: 323px;
+  background: white;
+  padding-top: 395px;
+  opacity: .8;
+  border-radius: 0px;
+  top: 1713px;
+  background-size: contain;
+  position: absolute;
+}
+
+.box8{
+  width: 100%;
+  height: 55px;
+  background: #57AAFF;
+  padding-top: 100px;
+  margin-top: -403px;
+  opacity: 1;
+  border-radius: 0px;
+  position: absolute;
+  background-size: contain;
+}
+
+
+p3{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font: Arial;
+  font-variant: small-caps;
+  font-style: oblique;
+  padding-left: 30px;
+  margin-top: 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 40px;
+  position: absolute;
+  top: -40px;
+  text-align: center;
+  padding-left: 157px;
+  font-weight: 800;
+}
+
+p10{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font-size: 40px;
+  top: 180px;
+  position: absolute;
+  text-align: center;
+  padding-left: 135px;
+  text-decoration: underline;
+  font-variant: small-caps;
+  font-style: oblique;
+  font: Arial;
+}
+
+ul3{
+  font-size: 25px;
+  margin-top: 20px;
+  font-variant: inherit;
+  top: 220px;
+  padding-left: 10px;
+  position: absolute;
+  font-family: 'Poppins' ,cursive;
+}
+
+p11{
+  color: black;
+  font-family: 'Poppins' ,cursive;
+  font-size: 28px;
+  position: absolute;
+  text-align: left;
+  top: 490px;
+  padding-left: 20px;
+}
+
+.card4{
+  background-position: center;
+  background-image: url(https://c.pxhere.com/photos/83/bb/animal_brown_dog_labrador_pet-954429.jpg!d);
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  margin-left: 608px;
+}
+
+.box4{
+  width: 40%;
+  background: white;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: contain;
+  position: absolute;
+}
+
+.box9{
+  width: 100%;
+  height: 55px;
+  background: #57AAFF;
+  padding-top: 100px;
+  margin-top: -722px;
+  opacity: 0.8;
+  border-radius: 0px;
+  position: absolute;
+  background-size: contain;
+}
+
+p4{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font: Arial;
+  font-variant: small-caps;
+  font-style: oblique;
+  padding-left: 30px;
+  margin-top: 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 40px;
+  position: absolute;
+  top: -40px;
+  text-align: left;
+  padding-left: 145px;
+  font-weight: 800;
+}
+
+p12{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font-size: 40px;
+  font-variant: small-caps;
+  font-style: oblique;
+  top:-530px;
+  position: absolute;
+  padding-left: 155px;
+  text-decoration: underline;
+}
+
+ul4{
+  font-size: 25px;
+  margin-top: 20px;
+  font-variant: inherit;
+  top: -490px;
+  padding-left: 10px;
+  position: absolute;
+  font-family: 'Poppins' ,cursive;
+}
+
+p13{
+  color: black;
+  font-size: 28px;
+  margin-top: 20px;
+  font-variant: inherit;
+  top: -140px;
+  padding-left: 10px;
+  position: absolute;
+  font-family: 'Poppins' ,cursive;
+}
+
+.card5{
+  background-position: center;
+  background-image: url(https://images.pexels.com/photos/909916/pexels-photo-909916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  margin-left: 608px;
+}
+
+.box5{
+  width: 40%;
+  background: white;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: contain;
+  position: absolute;
+}
+
+.box10{
+  width: 100%;
+  height: 55px;
+  background: #57AAFF;
+  padding-top: 100px;
+  margin-top: -723px;
+  opacity: 0.8;
+  border-radius: 0px;
+  position: absolute;
+  background-size: contain;
+}
+
+p5{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font: Arial;
+  font-variant: small-caps;
+  font-style: oblique;
+  padding-left: 30px;
+  margin-top: 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 40px;
+  position: absolute;
+  top: -40px;
+  text-align: left;
+  padding-left: 155px;
+  font-weight: 800;
+}
+
+.mapouter{
+  height:150px;
+  top: -10px;
+  position: absolute;
+  padding-left: 100px;
+}
+
+p14{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font-size: 25px;
+  text-decoration: underline;
+  padding left: 500px;
+  position: absolute;
+  margin-left: 300px;
+  top: 470px;
+}
+
+ul5{
+  font-size: 16px;
+  margin-top: 20px;
+  font-variant: inherit;
+  top: 490px;
+  padding-left: 300px;
+  position: absolute;
+  font-family: 'Poppins' ,cursive;
+}
+
+p15{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font-size: 25px;
+  text-decoration: underline;
+  padding left: 500px;
+  position: absolute;
+  margin-left: 20px;
+  top: 470px;
+}
+
+p16{
+  position: absolute;
+  top: 490px;
+  font-family: 'Poppins' ,cursive;
+  font-size: 23px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+p17{
+  position: absolute;
+  top: 520px;
+  font-family: 'Poppins' ,cursive;
+  font-size: 23px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+p18{
+  color: black;
+  font-family: 'Righteous' ,cursive;
+  font-size: 25px;
+  text-decoration: underline;
+  padding left: 500px;
+  position: absolute;
+  margin-left: 20px;
+  top: 590px;
+}
+
+p19{
+  position: absolute;
+  top: 610px;
+  font-family: 'Poppins' ,cursive;
+  font-size: 23px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+p20{
+  position: absolute;
+  top: 640px;
+  font-family: 'Poppins' ,cursive;
+  font-size: 23px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
